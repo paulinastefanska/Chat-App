@@ -8,8 +8,14 @@
 
 .UserInput {
     padding: 20px;
-    font-size: 2em;
+    font-size: 1.8em;
+    text-align: center;
     border: 0;
     border-bottom: 1px solid #ccc;
     width: 530px;
+}
+@media(max-width: 767px) {
+    .UserInput {
+        font-size: 1em;
+    }
 }
